@@ -1,8 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.AsyncExtensions", "FSharp.AsyncExtensions.fsproj", "{EDE1812B-5A62-410A-9553-02499CF29317}"
-EndProject
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{8406B0C7-14A3-42F1-AC7A-EE26C0A9F15E}"
 	ProjectSection(SolutionItems) = preProject
 		..\License.markdown = ..\License.markdown
@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{DD79
 		..\samples\StockStream.fsx = ..\samples\StockStream.fsx
 		..\samples\WebProxy.fsx = ..\samples\WebProxy.fsx
 	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.AsyncExtensions", "FSharp.AsyncExtensions.fsproj", "{EDE1812B-5A62-410A-9553-02499CF29317}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
